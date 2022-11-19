@@ -16,7 +16,7 @@ public class Compra {
     private String idCliente;
 
     private LocalDateTime fecha;
-    
+
     @Column(name = "medio_pago")
     private String medioPago;
 
