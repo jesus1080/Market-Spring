@@ -21,7 +21,7 @@ public class ProductService {
         return productRepository.getProduct(productId);
     }
 
-    Optional<List<Product>> getByCategory(int categoryId){
+    public Optional<List<Product>> getByCategory(int categoryId){
         return productRepository.getByCategory(categoryId);
     }
 

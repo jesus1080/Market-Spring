@@ -3,7 +3,7 @@ package com.jhrv.market.domain;
 public class Category {
 
     private int categoryId;
-    private String cateogory;
+    private String category;
     private boolean active;
 
     public int getCategoryId() {
@@ -14,12 +14,12 @@ public class Category {
         this.categoryId = categoryId;
     }
 
-    public String getCateogory() {
-        return cateogory;
+    public String getCategory() {
+        return category;
     }
 
-    public void setCateogory(String cateogory) {
-        this.cateogory = cateogory;
+    public void setCategory(String cateogory) {
+        this.category = cateogory;
     }
 
     public boolean isActive() {
